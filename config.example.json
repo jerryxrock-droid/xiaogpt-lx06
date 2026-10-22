@@ -1,0 +1,28 @@
+{
+  "hardware": "LX06",
+  "bot": "chatgptapi",
+  "keyword": ["问AI", "问ai", "问 AI", "问 Ai"],
+  "mute_xiaoai": true,
+  "stream": true,
+  "tts": "mi",
+  "verbose": 0,
+  "prompt": "请用简洁自然的中文回答，控制在100字以内，不使用Markdown或链接。",
+  "gpt_options": {
+    "model": "MiniMax-M3",
+    "extra_body": {
+      "reasoning_split": true,
+      "thinking": { "type": "disabled" }
+    }
+  },
+
+  "_comment_account": "小米账号（手机号或 MI ID）",
+  "account": "",
+  "_comment_password": "小米账号密码；首次登录可能需要短信验证码",
+  "password": "",
+  "_comment_key": "模型 API Key（MiniMax 国际账号改为 https://api.minimax.io/v1）",
+  "openai_key": "",
+  "api_base": "https://api.minimax.cn/v1",
+
+  "_comment_did": "运行 python manage.py discover 后自动填写",
+  "mi_did": ""
+}

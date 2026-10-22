@@ -1,0 +1,23 @@
+# 本地虚拟环境与依赖
+.venv/
+venv/
+
+# 含凭据的真实配置（请复制 .example 文件并自行填写）
+config.json
+mac_features.json
+music_library.json
+
+# 运行期状态：含小米认证令牌、对话记录、搜索痕迹、晨报内容与音频
+state/
+!state/.gitkeep
+
+# 编译产物
+*.app/
+*.o
+*.dSYM/
+build/
+
+# 系统文件
+.DS_Store
+__pycache__/
+*.py[cod]

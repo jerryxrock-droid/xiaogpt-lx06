@@ -1,0 +1,10 @@
+miservice==3.0.1
+openai>=3.26.0
+aiohttp>=3.14.4
+rich>=15.0.0
+
+# 本项目扩展模块使用
+httpx
+beautifulsoup4
+edge-tts
+pypinyin

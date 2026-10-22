@@ -1,0 +1,6 @@
+{
+  "_comment": "网易云公开歌单读取配置；user_id 为账号公开 ID，不含密码或登录令牌。aliases 用于语音说法到实际歌单名的映射。",
+  "user_id": 0,
+  "nickname": "",
+  "aliases": {}
+}

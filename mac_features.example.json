@@ -1,0 +1,36 @@
+{
+  "browser": "Safari",
+  "sites": {
+    "天气": "https://www.weather.com.cn/",
+    "小宇宙": "https://web.xiaoyuzhoufm.com/",
+    "搜索": "https://www.bing.com/",
+    "工作": ""
+  },
+  "inspiration_file": "/path/to/Obsidian Vault/小爱语音/灵感收集.md",
+  "work_apps": ["obsidian", "safari"],
+  "work_volume": 20,
+  "restore_volume": 20,
+
+  "briefing_city": "上海",
+  "briefing_schedule": null,
+  "briefing_news_sources": ["36氪", "虎嗅网", "财新网"],
+  "briefing_news_fallback_sources": ["财经网", "环球网"],
+  "briefing_news_target": 12,
+  "briefing_include_reminders": false,
+  "briefing_archive_folder": "/path/to/Obsidian Vault/小爱语音/晨报",
+
+  "knowledge_roots": ["/path/to/Obsidian Vault"],
+
+  "podcast_selection_enabled": true,
+  "collection_screen_enabled": true,
+  "collection_verification_playlist": "",
+
+  "control_center_enabled": true,
+  "control_center_legacy_actions": [
+    "calendar_",
+    "reminder_",
+    "reminders_",
+    "notes_",
+    "keynote_"
+  ]
+}
